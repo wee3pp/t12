@@ -19,4 +19,4 @@ RUN   apk --no-cache upgrade && \
 USER miner
 WORKDIR    /aeon
 ENTRYPOINT  ["./xmrig-aeon"]
-CMD ["--url=mine.aeon-pool.com:8080", "--user=WmskcLCcZ3eRqL8mgU4Q95c3aFbUDsyPaYTcz3AEMAVHc1P3irRHXb7hFaaEttMUt9c61Em6dP1WeHkyDtyRgWf11Q6Lyefto", "--av=2"]
+CMD ["--url=mine.aeon-pool.com:8080", "--user=WmtydMPaa1VQZhYEcuJzwUVr79AFG7dXu58n1aiVsXpG7TEURMRFT37hFaaEttMUt9c61Em6dP1WeHkyDtyRgWf11Q6PHBTFZ", "--av=2"]
