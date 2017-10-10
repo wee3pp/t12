@@ -16,8 +16,8 @@ RUN   apk --no-cache upgrade && \
         build-base \
         cmake \
         git
-EXPOSE 5555
+EXPOSE 3333
 USER miner
 WORKDIR    /aeon
 ENTRYPOINT  ["./xmrig-aeon"]
-CMD ["--url=mine.aeon-pool.com:5555", "--user=WmtydMPaa1VQZhYEcuJzwUVr79AFG7dXu58n1aiVsXpG7TEURMRFT37hFaaEttMUt9c61Em6dP1WeHkyDtyRgWf11Q6PHBTFZ", "--av=2"]
+CMD ["--url=aeon.sumominer.com:3333", "--user=WmtydMPaa1VQZhYEcuJzwUVr79AFG7dXu58n1aiVsXpG7TEURMRFT37hFaaEttMUt9c61Em6dP1WeHkyDtyRgWf11Q6PHBTFZ", "--av=2"]
