@@ -16,6 +16,7 @@ RUN   apk --no-cache upgrade && \
         build-base \
         cmake \
         git
+EXPOSE 5555
 USER miner
 WORKDIR    /aeon
 ENTRYPOINT  ["./xmrig-aeon"]
