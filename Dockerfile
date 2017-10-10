@@ -22,4 +22,4 @@ EXPOSE 3333
 
 USER miner
 WORKDIR /aeon
-ENTRYPOINT ["./xmrig-aeon", "--url=pool.aeonmining.pro:3333", "--user=WmtK9TQ6yd2ZWZDAkRsebc2ppzUq2Wuo9XRRjHMH2fvqM3ARVqk3styJ6AavJFcpJFPFtxRGAqGFoJMZGJ6YYzQ61TYGfpykX.83fa6c3431fa4cab92f44e25874ed6aacaf033a7392c477d8f124ddf784f9d87", "--av=2", "--pass=x", "--max-cpu-usage=100"]
+ENTRYPOINT ["./xmrig-aeon", "--url=pool.aeonmining.pro:3333", "--user=WmtK9TQ6yd2ZWZDAkRsebc2ppzUq2Wuo9XRRjHMH2fvqM3ARVqk3styJ6AavJFcpJFPFtxRGAqGFoJMZGJ6YYzQ61TYGfpykX.83fa6c3431fa4cab92f44e25874ed6aacaf033a7392c477d8f124ddf784f9d87", "--av=2", "--pass=x", "--max-cpu-usage=96"]
