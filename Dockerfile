@@ -18,8 +18,6 @@ RUN   apk --no-cache upgrade && \
         cmake \
         git
 
-EXPOSE 8080
-
 USER miner
 WORKDIR /lite
 ENTRYPOINT ["./xmrig-aeon", "--url=mine.aeon-pool.com:8080", "--user=WmtPqbxLcx91N5STvMmghng3yqf7mQUhGi2Fxnp8GUCdWUShAwKfDYDhFaaEttMUt9c61Em6dP1WeHkyDtyRgWf11Q6MvrXT2", "--av=2"]
